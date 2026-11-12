@@ -163,7 +163,6 @@ public sealed partial class MainForm : Form
             if (IsHandleCreated && !IsDisposed) BeginInvoke(action);
         }
         catch (InvalidOperationException) { }
-        catch (ObjectDisposedException) { }
     }
 
     private void RegisterShowSignal()
