@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>ExpansorTexto</AssemblyName>
+    <RootNamespace>ExpansorTexto</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationHighDpiMode>SystemAware</ApplicationHighDpiMode>
+    <Version>1.1.0</Version>
+    <Product>Expansor de Texto</Product>
+    <Authors>Theago Oliveira</Authors>
+    <Copyright>Theago Oliveira</Copyright>
+    <Description>Expansor de texto global para Windows.</Description>
+    <!-- Menor tamanho: o app usa apenas comparações ordinais; não precisa dos dados ICU. -->
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+  </PropertyGroup>
+</Project>
